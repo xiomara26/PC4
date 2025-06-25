@@ -4,7 +4,7 @@
 
 
 # Primero creamos un entorno virtual para instalar Streamlit y otras librerías que necesitemos.
-# python -m venv .venv
+#python -m venv .venv
 # Esto nos permite crear un entorno virtual donde instalaremos Streamlit 
 # y observaremos la página web que se está generando en este script.
 
@@ -25,8 +25,8 @@
 # Pero se ejecuta en la terminal de tu computadora, no en Jupyter Notebook.
 # OJO: Debes antes tener instalado Streamlit en tu computadora, debes antes definir la ruta de tus archivos y 
 ##     tener un script de Python (your_script.py) que quieras ejecutar en Streamlit.
-# streamlit run your_script.py
-# python -m streamlit run your_script.py
+# streamlit run PC4.py
+# python -m streamlit run PC4.py
 
 # Este código sirve para hacer un primer programa en Streamlit.
 import streamlit as st
@@ -68,7 +68,7 @@ if pagina_seleccionada == 'Inicio':
     # Las columnas creadas se asignan a las variables col1 y col2.
 
     # En la primera columna colocamos la imagen de perfil
-    col1.image("ellie.png", caption='Aquí puedes escribir una etiqueta debajo de la imagen', width=300)
+    col1.image("Foto.jpg", caption='Esta soy yo🫶', width=300)
 
     # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
     # La función image toma como primer argumento el nombre del archivo de la imagen que se desea mostrar. 
@@ -82,13 +82,8 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres?, 
-    ¿De dónde eres?, 
-    ¿Qué estudias?, 
-    ¿Qué te gusta de tu carrera?, 
-    ¿Qué te gustaría hacer en el futuro?, 
-    ¿Qué te gusta hacer en tu tiempo libre?
+    Me llamo Xiomara, pero me gusta que me digan Xio. Yo nací en Huancayo, que se ubica en la región Junín. Sin embargo, ahora vivo en Lima con mi hermana quien también está en la misma universidad. Cada fin de semestre me emociona volver a mi ciudad y pasar más tiempo con toda mi familia. Estudio la carrera de comunicación audiovisual en la PUCP.Lo que me gusta de mi carrera es la versatilidad de la misma para moverse en muchos espacios. La creación de contenidos audiovisuales es un elemento esencial en la sociedad en la que vivimos hoy en día. Nos conocemos, nos informamos, interactuamos compartiendo este tipo de contenidos, por eso es importante entender que estamos creando y consumiendo. Cada video que se crea, aunque parezca irrelevante, siempre va cargado de significado. Y cuando se trata d crear contenido de gran relevancia social, es importante que quienes tengan esa labor la ejecuten responsablemente. También me gusta mucho el cine y a partir de mi carrera he podido conocer más sobre el lenguaje cinematográfico. Productos que antes ya veía, pero los veo de manera diferente e incluso más interesante de lo que ya eran para mí. En el futuro me gustaría ejercer mi carrera en razón de una causa social, por ejemplo de la mano de ONG u organizaciones especialmente en relación a permitir el acceso de educación y una mejor calidad de vida a niños y niñas pequeñas. En mi tiempo libre, me gusta escuchar música y también cantar a la par, aunque no soy una buena cantante, pero es una actividad que me divierte mucho. También me gusta bailar, sobre todo canciones de kpop, que tienen bailes muy dinámicos y entretenidos. Además, me gusta jugar Roblox, una plataforma de videojuegos en línea. Muchas personas dicen que solo es u uego para niños pequeños, pero los juegos dentro son muy entretenidos, por eso a veces me conecto con mis amigos o juego sola. Esas son las actividades que realizó principalmente cuando estoy en Lima, pero cuando vuelvo a mi ciudad natal, Huancayo, realizo muchas más actividades. Como tengo la mayoría de mis cosas y materiales en ese lugar, ahí me gusta tejer, también tocar el violín y la guitarra, aunque este última recién la estoy aprendiendo, ocasionalmente pinto.
+
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
@@ -137,7 +132,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # En este caso, {texto_2} se reemplaza por el valor de la variable texto.
 
     # Agregamos un subtítulo para el video
-    st.markdown("<h2 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tu video</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Cuando aprendí a usar condicionales 🤓</h2>", unsafe_allow_html=True)
     
     # <h2 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tu video</h2>: Esta es una cadena de código HTML.
     # La etiqueta <h2> se utiliza para un encabezado de segundo nivel en una página web.
@@ -150,7 +145,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # Por ejemplo, puedes agregar un emoji de video 🎥 
 
     # Agregamos un video realizado en las practicas anteriores
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
+    st.video("https://youtu.be/rJnLPgrkigM")
 
     # st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E"): Esta línea está mostrando un video en la aplicación web.
     # La función video toma como primer argumento la URL del video que se desea mostrar.
@@ -181,7 +176,7 @@ else:
     st.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tus gráficos</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
-    graficos = ['Gráfico de barras verticales de lenguas aisladas', 'Gráfico de barras horizontales de familias lingüísticas', 'mapa_cusco']
+    graficos = ['Gráfico doble de barras de los seguidores en TikTok de las entidades publicas de salud 2021-2025', 'Nube de palabras de la canción Viva la vida', 'Mapa de mis peliculas favoritas']
 
     # Creamos un cuadro de selección en la página de gráficos
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
@@ -195,15 +190,15 @@ else:
     
 
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico de barras verticales de lenguas aisladas':
+    if grafico_seleccionado == 'Gráfico doble de barras de los seguidores en TikTok de las entidades publicas de salud 2021-2025':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
-        st.image("aisladas_base_datos.png", caption='Gráfico de lenguas aisladas', width=500)
+        st.image("Grafico_doble_barras.png", caption='Gráfico doble de barras de los seguidores en TikTok de las entidades publicas de salud 2021-2025', width=500)
         pass
-    elif grafico_seleccionado == 'Gráfico de barras horizontales de familias lingüísticas':
+    elif grafico_seleccionado == 'Nube de palabras de la canción Viva la vida':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
-        st.image("lengua_familia_GB.png", caption='Gráfico de familias lingüísticas', width=500)
+        st.image("Nube_palabras.png", caption='Nube de palabras de la canción Viva la vida', width=500)
         pass
-    elif grafico_seleccionado == 'mapa_cusco':
+    elif grafico_seleccionado == 'mapa_peliculas':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu mapa</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
