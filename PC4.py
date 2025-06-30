@@ -82,7 +82,7 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    Me llamo Xiomara, pero me gusta que me digan Xio. Yo nací en Huancayo, que se ubica en la región Junín. Sin embargo, ahora vivo en Lima con mi hermana quien también está en la misma universidad. Cada fin de semestre me emociona volver a mi ciudad y pasar más tiempo con toda mi familia. Estudio la carrera de comunicación audiovisual en la PUCP.Lo que me gusta de mi carrera es la versatilidad de la misma para moverse en muchos espacios. La creación de contenidos audiovisuales es un elemento esencial en la sociedad en la que vivimos hoy en día. Nos conocemos, nos informamos, interactuamos compartiendo este tipo de contenidos, por eso es importante entender que estamos creando y consumiendo. Cada video que se crea, aunque parezca irrelevante, siempre va cargado de significado. Y cuando se trata d crear contenido de gran relevancia social, es importante que quienes tengan esa labor la ejecuten responsablemente. También me gusta mucho el cine y a partir de mi carrera he podido conocer más sobre el lenguaje cinematográfico. Productos que antes ya veía, pero los veo de manera diferente e incluso más interesante de lo que ya eran para mí. En el futuro me gustaría ejercer mi carrera en razón de una causa social, por ejemplo de la mano de ONG u organizaciones especialmente en relación a permitir el acceso de educación y una mejor calidad de vida a niños y niñas pequeñas. En mi tiempo libre, me gusta escuchar música y también cantar a la par, aunque no soy una buena cantante, pero es una actividad que me divierte mucho. También me gusta bailar, sobre todo canciones de kpop, que tienen bailes muy dinámicos y entretenidos. Además, me gusta jugar Roblox, una plataforma de videojuegos en línea. Muchas personas dicen que solo es u uego para niños pequeños, pero los juegos dentro son muy entretenidos, por eso a veces me conecto con mis amigos o juego sola. Esas son las actividades que realizó principalmente cuando estoy en Lima, pero cuando vuelvo a mi ciudad natal, Huancayo, realizo muchas más actividades. Como tengo la mayoría de mis cosas y materiales en ese lugar, ahí me gusta tejer, también tocar el violín y la guitarra, aunque este última recién la estoy aprendiendo, ocasionalmente pinto.
+    Me llamo Xiomara, pero me gusta que me digan Xio 😊. Yo nací en Huancayo, que se ubica en la región Junín. Sin embargo, ahora vivo en Lima con mi hermana quien también está en la misma universidad. Cada fin de semestre me emociona volver a mi ciudad y pasar más tiempo con toda mi familia. Estudio la carrera de comunicación audiovisual en la PUCP 🎓.Lo que me gusta de mi carrera es la versatilidad de la misma para moverse en muchos espacios. La creación de contenidos audiovisuales es un elemento esencial en la sociedad en la que vivimos hoy en día. Nos conocemos, nos informamos, interactuamos compartiendo este tipo de contenidos, por eso es importante entender que estamos creando y consumiendo. Cada video que se crea, aunque parezca irrelevante, siempre va cargado de significado. Y cuando se trata d crear contenido de gran relevancia social, es importante que quienes tengan esa labor la ejecuten responsablemente. También me gusta mucho el cine 🍿 y a partir de mi carrera he podido conocer más sobre el lenguaje cinematográfico. Productos que antes ya veía, pero los veo de manera diferente e incluso más interesante de lo que ya eran para mí. En el futuro me gustaría ejercer mi carrera en razón de una causa social, por ejemplo de la mano de ONG u organizaciones especialmente en relación a permitir el acceso de educación y una mejor calidad de vida a niños y niñas pequeñas. En mi tiempo libre, me gusta escuchar música 🎶 y también cantar a la par, aunque no soy una buena cantante, pero es una actividad que me divierte mucho. También me gusta bailar, sobre todo canciones de kpop, que tienen bailes muy dinámicos y entretenidos. Además, me gusta jugar Roblox 🎮, una plataforma de videojuegos en línea. Muchas personas dicen que solo es u uego para niños pequeños, pero los juegos dentro son muy entretenidos, por eso a veces me conecto con mis amigos o juego sola. Esas son las actividades que realizó principalmente cuando estoy en Lima, pero cuando vuelvo a mi ciudad natal, Huancayo, realizo muchas más actividades. Como tengo la mayoría de mis cosas y materiales en ese lugar, ahí me gusta tejer, también tocar el violín y la guitarra, aunque este última recién la estoy aprendiendo, ocasionalmente pinto 🎨.
 
     """
 
@@ -103,7 +103,7 @@ if pagina_seleccionada == 'Inicio':
 elif  pagina_seleccionada == 'Experiencia':
 
     # Agregamos un título
-    st.markdown("<h1 style='text-align: center;'>Mi experiencia aprendiendo a programar 💻</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Mi experiencia aprendiendo a programar 💻✨</h1>", unsafe_allow_html=True)
 
     # En esta sección debes describir y comentar tu experiencia aprendiendo a programar
     # ¿Cómo te sentiste al principio?, 
@@ -112,11 +112,10 @@ elif  pagina_seleccionada == 'Experiencia':
 
     # Agregar un  texto para la respuesta
     texto_2 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio?, 
-    ¿Qué te ha enseñado la programación?, 
-    ¿Qué te gusta de programar?, 
-    ¿Qué te gustaría hacer con la programación en el futuro? 
+   Al inicio, si tenía un poco de miedo, porque ¡no sabía nada de programación! Lo único que sabía era por las películas y en ellas se muestra como algo super complejo. Sin embargo, también me causaba mucha intriga saber cómo funcionaba. No tenía idea de que literalmente todo en línea trabajaba de esa manera. En las primeras clases, fui empezando a entender cosas básicas y la verdad fue divertido, así que iba jugando con los códigos a ver que me salían. 
+Creo que lo mejor que me ha enseñado la programación es que un problema, o situación no tiene una sola solución, sino que tiene miles de maneras creativas. Y esto no solo se queda en la programación, sino para la vida misma. Otra cosa que me enseñó fue a tener paciencia y ser ordenada, porque un solo error en el código puede malograrlo todo. 
+Lo que me gusta de programar es que puedo crear cualquier cosa que se me venga a la mente. Al inicio, vimos ejemplos más prácticos con números y así, pero cuando fuimos viendo juegos para entender los métodos, las clases de PCC se volvieron mis favoritas. Así que a partir de ese momento, cuando no entendía cómo funcionaba algo, trataba de usar una temática divertida y linda ¡como en los juegos! Algunas cosas que programé que me gustaron mucho fueron: ¿QUÉ DICE TU ANIMAL FAVORITO DE TÍ?, ¡ADIVINA QUÉ FRUTAS TENGO EN MI CESTA! o ¡ADIVINA EN QUÉ PLANETA ESTOY PENSANDO!
+En el futuro, creo que va a ser clave emplear la programación en mi carrera. Lo que me gustaría hacer con ella sería justamente automatizar procesos que me tomarían más tiempo, para dedicar el resto a la creación creativa de propuestas. Como mencionaba, me gusta mucho la idea de trabajar con una ONG en el futuro y en especial en relación a la educación. Creo que usar la programación para crear programas amigables e interactivos que puedan colaborar en la educación de niños y niñas pequeñas. Al inicio del curso, no pensé que me terminaría gustando tanto el curso, pero creo que el manejo de contenidos y la manera de enseñar de nuestra JP Luisa fue clave para este cambio de mi manera de ver la programación.  
     """
 
     # Mostramos el texto
@@ -153,7 +152,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # Puedes cambiar la URL por la de tu video en YouTube o en otra plataforma de video.
 
     # O creamos un botón para ir al enlace del video con button
-    st.markdown(f"<div style='text-align: center;'><a href='https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link' target='_blank'><button>Ver video</button></a></div>", unsafe_allow_html=True) 
+    st.markdown(f"<div style='text-align: center;'><a href='https://youtu.be/rJnLPgrkigM' target='_blank'><button>Ver video</button></a></div>", unsafe_allow_html=True) 
 
     # <div style='text-align: center;'><a href='https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link' target='_blank'><button>Ver video</button></a></div>:
     # Esta es una cadena de código HTML.
@@ -173,10 +172,10 @@ elif  pagina_seleccionada == 'Experiencia':
 else:
 
     # Agregamos un título para la página de gráficos
-    st.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tus gráficos</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Algunos gráficos que cree 💪📈</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
-    graficos = ['Gráfico doble de barras de los seguidores en TikTok de las entidades publicas de salud 2021-2025', 'Nube de palabras de la canción Viva la vida', 'Mapa de mis peliculas favoritas']
+    graficos = ['Gráfico doble de barras de los seguidores en TikTok de las entidades públicas de salud 2021-2025', 'Nube de palabras de la canción Viva la vida', 'Mapa de mis peliculas favoritas']
 
     # Creamos un cuadro de selección en la página de gráficos
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
@@ -190,16 +189,16 @@ else:
     
 
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico doble de barras de los seguidores en TikTok de las entidades publicas de salud 2021-2025':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
+    if grafico_seleccionado == 'Gráfico doble de barras de los seguidores en TikTok de las entidades publicas de salud 2021-2025 🏥':
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>En este gráfico, se puede ver el crecimiento del número de seguidores de la cuentas de TikTok de las entidades públicas de salud 🏥 del Perú como el Ministerio de Salud, EsSalud, Direccion de Redes Integradas de Salud Lima Centro, Direccion de Redes Integradas de Salud Lima Este, Direccion de Redes Integradas de Salud Lima Sur, Direccion de Redes Integradas de Salud Lima Norte. En color rosa 🌸, se aprecia en número de seguidores en el año 2021 y de color naranja 🏵️ los del año 2025.</div>", unsafe_allow_html=True)
         st.image("Grafico_doble_barras.png", caption='Gráfico doble de barras de los seguidores en TikTok de las entidades publicas de salud 2021-2025', width=500)
         pass
-    elif grafico_seleccionado == 'Nube de palabras de la canción Viva la vida':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
+    elif grafico_seleccionado == 'Pie chart de los tipos de programas en Netflix 🎥':
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>En este grafico de pastel, podemos visualizar de forma porcentual la distribución de los tipos de contenidos disponibles en la plataforma de Netflix. Notablemente, existe una mayor cantidad de programas tipo Movie 🎬 en comparación al TV Show 📺. Este tipo de grafico resulta útil para apreciar rápidamente y de manera general la proporción que cada elemento ocupa.</div>", unsafe_allow_html=True)
         st.image("Nube_palabras.png", caption='Nube de palabras de la canción Viva la vida', width=500)
         pass
     elif grafico_seleccionado == 'mapa_peliculas':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu mapa</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>En este mapa, ubiqué los lugares donde se grabaron mi top 5 películas favoritas 🎬. En el caso de las películas con actores reales, como Orgullo y Prejuicio, Los juegos del hambre y Alicia en el país de las maravillas, marqué algunas locaciones reales que fueron utilizadas en la filmación. En Orgullo y Prejuicio: Chatsworth House → Representa la residencia de Mr. Darcy: Pemberley. En Los juegos del hambre: Shelby, Carolina del Norte, EE. UU. → Fue el lugar donde se grabó la ceremonia de selección del Distrito 12. En Alicia en el país de las maravillas: National Trust – Antony → Escenario de la casa donde se celebra la fiesta de compromiso de Alicia, en el mundo real. Por otro lado, en el caso de las películas animadas —La princesa y el sapo y Shrek— señalé los estudios donde fueron producidas: Walt Disney Studios 🏰 y Dreamworks Animation 🌙. Puede que en el mapa no los veas 😅, pero solo acércate un poco, porque son vecinas  (¡y rivales!⚔️). Asimismo, en cada una verás detalles como el año de estreno y director o directora de la película.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
         with open("mapa_cusco.html", "r", encoding="utf-8") as f:
