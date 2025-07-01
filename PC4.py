@@ -68,7 +68,7 @@ if pagina_seleccionada == 'Inicio':
     # Las columnas creadas se asignan a las variables col1 y col2.
 
     # COLUMNAS: En la primera columna colocamos la imagen de perfil
-    col1.image("Foto.jpg", caption='Esta soy yo🫶', width=300)
+    col1.image("Foto.jpg", caption='Esta soy yo c: ', width=300)
 
     # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
     # La función image toma como primer argumento el nombre del archivo de la imagen que se desea mostrar. 
@@ -85,7 +85,7 @@ if pagina_seleccionada == 'Inicio':
     ¡Hola! Me llamo Xiomara, pero me gusta que me digan Xio 😊. Nací en Huancayo, que se ubica en la región Junín. Sin embargo, ahora vivo en Lima junto a mi hermana quien también estudia en la misma universidad que yo. Cada fin de semestre me emociona volver a mi ciudad y pasar más tiempo con toda mi familia. 
     Estudio la carrera de comunicación audiovisual en la PUCP 🎓 y lo que me gusta de esta carrera es la versatilidad de la misma para desenvolverse en múltiples campos. La creación de contenidos audiovisuales es un elemento esencial en la sociedad en la que vivimos hoy en día. Nos conocemos, nos informamos, interactuamos a través de contenidos audiovisuales, por eso es importante entender que estamos creando y consumiendo. Cada video, aunque parezca irrelevante, siempre está cargado de significado. Y cuando se trata de contenido de gran relevancia social, es importante que quienes los produzcan asuman esa responsabilidad con conciencia.  
     También me gusta mucho el cine 🍿. Gracias a mi carrera, he podido conocer más sobre el lenguaje cinematográfico. Productos que antes ya disfrutaba, ahora me resultan más interesantes al entender porque causaban diversos sentimientos y emociones más allá de lo que decía en palabras.
-    En el futuro, me gustaría ejercer mi carrera al servicio de una causa social. Me interesa la idea de trabajar con una ONG o alguna organización enfocada en el acceso a la educación y en mejorar la calidad de vida de niñas, niños pequeños y mujeres 👦 .
+    En el futuro, me gustaría ejercer mi carrera al servicio de una causa social. Me interesa la idea de trabajar con una ONG o alguna organización enfocada en el acceso a la educación y en mejorar la calidad de vida de niñas, niños pequeños y mujeres.
     En mi tiempo libre, me encanta escuchar música 🎶 y cantar a la par, aunque no soy una buena cantante, pero es divertido hacerlo. También me gusta bailar, sobre todo canciones de kpop, que tienen bailes muy dinámicos y entretenidos. Además, me gusta jugar Roblox 🎮, una plataforma de videojuegos en línea. Muchas personas dicen que solo es u uego para niños pequeños, pero los juegos dentro son muy entretenidos. A veces me conecto con mis amigos y otras veces juego sola. Esas son las actividades que realizó principalmente cuando estoy en Lima, pero cuando vuelvo a mi ciudad natal, Huancayo, realizo ¿más actividades. Como allá tengo la mayoría de mis cosas y materiales, ahí me gusta tejer, tocar el violín y la guitarra, aunque esta última recién la estoy aprendiendo, y ocasionalmente pinto 🎨.
     
     """
