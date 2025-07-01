@@ -181,7 +181,7 @@ else:
     st.markdown("<h1 style='text-align: center;'>Algunos gráficos que diseñé 💪📈</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
-    graficos = ['Gráfico doble de barras de los seguidores en TikTok de las entidades públicas de salud 2021-2025', 'Nube de palabras de la canción Viva la vida', 'Mapa de mis peliculas favoritas']
+    graficos = ['Gráfico doble de barras de los seguidores en TikTok de las entidades públicas de salud 2021-2025', 'Gráfico pastel de los tipos de programas en Netflix', 'Mapa de mis películas favoritas']
 
     # Creamos un cuadro de selección en la página de gráficos
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
@@ -194,20 +194,20 @@ else:
     # La variable grafico_seleccionado se utiliza para mostrar el gráfico correspondiente en la aplicación web.
     
 
-    # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico doble de barras de los seguidores en TikTok de las entidades publicas de salud 2021-2025 🏥':
+    # Mostramos el gráfico seleccionado (El primer if: primer gráfico)
+    if grafico_seleccionado == 'Gráfico doble de barras de los seguidores en TikTok de las entidades públicas de salud 2021-2025':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>En este gráfico, se puede ver el crecimiento del número de seguidores de la cuentas de TikTok de las entidades públicas de salud 🏥 del Perú como el Ministerio de Salud, EsSalud, Direccion de Redes Integradas de Salud Lima Centro, Direccion de Redes Integradas de Salud Lima Este, Direccion de Redes Integradas de Salud Lima Sur, Direccion de Redes Integradas de Salud Lima Norte. En color rosa 🌸, se aprecia en número de seguidores en el año 2021 y de color naranja 🏵️ los del año 2025.</div>", unsafe_allow_html=True)
-        st.image("Grafico_doble_barras.png", caption='Gráfico doble de barras de los seguidores en TikTok de las entidades publicas de salud 2021-2025', width=500)
+        st.image("Grafico_doble_barras.png", caption='Gráfico de los seguidores en TikTok de las entidades publicas de salud 2021-2025 🏥', width=500)
         pass
-    elif grafico_seleccionado == 'Pie chart de los tipos de programas en Netflix 🎥':
+    elif grafico_seleccionado == 'Gráfico pastel de los tipos de programas en Netflix':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>En este grafico de pastel, podemos visualizar de forma porcentual la distribución de los tipos de contenidos disponibles en la plataforma de Netflix. Notablemente, existe una mayor cantidad de programas tipo Movie 🎬 en comparación al TV Show 📺. Este tipo de grafico resulta útil para apreciar rápidamente y de manera general la proporción que cada elemento ocupa.</div>", unsafe_allow_html=True)
-        st.image("Nube_palabras.png", caption='Nube de palabras de la canción Viva la vida', width=500)
+        st.image("tipo_programas.png", caption='Gráfico pastel de los tipo de programas en Netflix🎥', width=500)
         pass
-    elif grafico_seleccionado == 'mapa_peliculas':
+    elif grafico_seleccionado == 'Mapa de mis películas favoritas':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>En este mapa, ubiqué los lugares donde se grabaron mi top 5 películas favoritas 🎬. En el caso de las películas con actores reales, como Orgullo y Prejuicio, Los juegos del hambre y Alicia en el país de las maravillas, marqué algunas locaciones reales que fueron utilizadas en la filmación. En Orgullo y Prejuicio: Chatsworth House → Representa la residencia de Mr. Darcy: Pemberley. En Los juegos del hambre: Shelby, Carolina del Norte, EE. UU. → Fue el lugar donde se grabó la ceremonia de selección del Distrito 12. En Alicia en el país de las maravillas: National Trust – Antony → Escenario de la casa donde se celebra la fiesta de compromiso de Alicia, en el mundo real. Por otro lado, en el caso de las películas animadas —La princesa y el sapo y Shrek— señalé los estudios donde fueron producidas: Walt Disney Studios 🏰 y Dreamworks Animation 🌙. Puede que en el mapa no los veas 😅, pero solo acércate un poco, porque son vecinas  (¡y rivales!⚔️). Asimismo, en cada una verás detalles como el año de estreno y director o directora de la película.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
-        with open("mapa_cusco.html", "r", encoding="utf-8") as f:
+        with open("mapa_peliculas.html", "r", encoding="utf-8") as f:
             html_content = f.read()
         components.html(html_content, height=500)
         pass
