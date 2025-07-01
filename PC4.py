@@ -43,8 +43,8 @@ pagina_seleccionada = st.sidebar.selectbox('Selecciona una página', paginas)
 # Generamos condicionales para mostrar el contenido de cada página
 if pagina_seleccionada == 'Inicio':
 
-    # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-    st.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para tu blog</h1>", unsafe_allow_html=True)
+    # TITULO DE LA PAGINA INICIO: La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
+    st.markdown("<h1 style='text-align: center;'>MI BLOG PERSONAL: ¡aprendí a programar! 👩‍💻</h1>", unsafe_allow_html=True)
 
     # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
     # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
@@ -67,7 +67,7 @@ if pagina_seleccionada == 'Inicio':
     # La función st.columns toma un número entero como argumento que especifica el número de columnas que se deben crear. 
     # Las columnas creadas se asignan a las variables col1 y col2.
 
-    # En la primera columna colocamos la imagen de perfil
+    # COLUMNAS: En la primera columna colocamos la imagen de perfil
     col1.image("Foto.jpg", caption='Esta soy yo🫶', width=300)
 
     # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
@@ -82,8 +82,12 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    Me llamo Xiomara, pero me gusta que me digan Xio 😊. Yo nací en Huancayo, que se ubica en la región Junín. Sin embargo, ahora vivo en Lima con mi hermana quien también está en la misma universidad. Cada fin de semestre me emociona volver a mi ciudad y pasar más tiempo con toda mi familia. Estudio la carrera de comunicación audiovisual en la PUCP 🎓.Lo que me gusta de mi carrera es la versatilidad de la misma para moverse en muchos espacios. La creación de contenidos audiovisuales es un elemento esencial en la sociedad en la que vivimos hoy en día. Nos conocemos, nos informamos, interactuamos compartiendo este tipo de contenidos, por eso es importante entender que estamos creando y consumiendo. Cada video que se crea, aunque parezca irrelevante, siempre va cargado de significado. Y cuando se trata d crear contenido de gran relevancia social, es importante que quienes tengan esa labor la ejecuten responsablemente. También me gusta mucho el cine 🍿 y a partir de mi carrera he podido conocer más sobre el lenguaje cinematográfico. Productos que antes ya veía, pero los veo de manera diferente e incluso más interesante de lo que ya eran para mí. En el futuro me gustaría ejercer mi carrera en razón de una causa social, por ejemplo de la mano de ONG u organizaciones especialmente en relación a permitir el acceso de educación y una mejor calidad de vida a niños y niñas pequeñas. En mi tiempo libre, me gusta escuchar música 🎶 y también cantar a la par, aunque no soy una buena cantante, pero es una actividad que me divierte mucho. También me gusta bailar, sobre todo canciones de kpop, que tienen bailes muy dinámicos y entretenidos. Además, me gusta jugar Roblox 🎮, una plataforma de videojuegos en línea. Muchas personas dicen que solo es u uego para niños pequeños, pero los juegos dentro son muy entretenidos, por eso a veces me conecto con mis amigos o juego sola. Esas son las actividades que realizó principalmente cuando estoy en Lima, pero cuando vuelvo a mi ciudad natal, Huancayo, realizo muchas más actividades. Como tengo la mayoría de mis cosas y materiales en ese lugar, ahí me gusta tejer, también tocar el violín y la guitarra, aunque este última recién la estoy aprendiendo, ocasionalmente pinto 🎨.
-
+    ¡Hola! Me llamo Xiomara, pero me gusta que me digan Xio 😊. Nací en Huancayo, que se ubica en la región Junín. Sin embargo, ahora vivo en Lima junto a mi hermana quien también estudia en la misma universidad que yo. Cada fin de semestre me emociona volver a mi ciudad y pasar más tiempo con toda mi familia. 
+    Estudio la carrera de comunicación audiovisual en la PUCP 🎓 y lo que me gusta de esta carrera es la versatilidad de la misma para desenvolverse en múltiples campos. La creación de contenidos audiovisuales es un elemento esencial en la sociedad en la que vivimos hoy en día. Nos conocemos, nos informamos, interactuamos a través de contenidos audiovisuales, por eso es importante entender que estamos creando y consumiendo. Cada video, aunque parezca irrelevante, siempre está cargado de significado. Y cuando se trata de contenido de gran relevancia social, es importante que quienes los produzcan asuman esa responsabilidad con conciencia.  
+    También me gusta mucho el cine 🍿. Gracias a mi carrera, he podido conocer más sobre el lenguaje cinematográfico. Productos que antes ya disfrutaba, ahora me resultan más interesantes al entender porque causaban diversos sentimientos y emociones más allá de lo que decía en palabras.
+    En el futuro, me gustaría ejercer mi carrera al servicio de una causa social. Me interesa la idea de trabajar con una ONG o alguna organización enfocada en el acceso a la educación y en mejorar la calidad de vida de niñas, niños pequeños y mujeres 👦 .
+    En mi tiempo libre, me encanta escuchar música 🎶 y cantar a la par, aunque no soy una buena cantante, pero es divertido hacerlo. También me gusta bailar, sobre todo canciones de kpop, que tienen bailes muy dinámicos y entretenidos. Además, me gusta jugar Roblox 🎮, una plataforma de videojuegos en línea. Muchas personas dicen que solo es u uego para niños pequeños, pero los juegos dentro son muy entretenidos. A veces me conecto con mis amigos y otras veces juego sola. Esas son las actividades que realizó principalmente cuando estoy en Lima, pero cuando vuelvo a mi ciudad natal, Huancayo, realizo ¿más actividades. Como allá tengo la mayoría de mis cosas y materiales, ahí me gusta tejer, tocar el violín y la guitarra, aunque esta última recién la estoy aprendiendo, y ocasionalmente pinto 🎨.
+    
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
@@ -112,10 +116,12 @@ elif  pagina_seleccionada == 'Experiencia':
 
     # Agregar un  texto para la respuesta
     texto_2 = """
-   Al inicio, si tenía un poco de miedo, porque ¡no sabía nada de programación! Lo único que sabía era por las películas y en ellas se muestra como algo super complejo. Sin embargo, también me causaba mucha intriga saber cómo funcionaba. No tenía idea de que literalmente todo en línea trabajaba de esa manera. En las primeras clases, fui empezando a entender cosas básicas y la verdad fue divertido, así que iba jugando con los códigos a ver que me salían. 
-Creo que lo mejor que me ha enseñado la programación es que un problema, o situación no tiene una sola solución, sino que tiene miles de maneras creativas. Y esto no solo se queda en la programación, sino para la vida misma. Otra cosa que me enseñó fue a tener paciencia y ser ordenada, porque un solo error en el código puede malograrlo todo. 
-Lo que me gusta de programar es que puedo crear cualquier cosa que se me venga a la mente. Al inicio, vimos ejemplos más prácticos con números y así, pero cuando fuimos viendo juegos para entender los métodos, las clases de PCC se volvieron mis favoritas. Así que a partir de ese momento, cuando no entendía cómo funcionaba algo, trataba de usar una temática divertida y linda ¡como en los juegos! Algunas cosas que programé que me gustaron mucho fueron: ¿QUÉ DICE TU ANIMAL FAVORITO DE TÍ?, ¡ADIVINA QUÉ FRUTAS TENGO EN MI CESTA! o ¡ADIVINA EN QUÉ PLANETA ESTOY PENSANDO!
-En el futuro, creo que va a ser clave emplear la programación en mi carrera. Lo que me gustaría hacer con ella sería justamente automatizar procesos que me tomarían más tiempo, para dedicar el resto a la creación creativa de propuestas. Como mencionaba, me gusta mucho la idea de trabajar con una ONG en el futuro y en especial en relación a la educación. Creo que usar la programación para crear programas amigables e interactivos que puedan colaborar en la educación de niños y niñas pequeñas. Al inicio del curso, no pensé que me terminaría gustando tanto el curso, pero creo que el manejo de contenidos y la manera de enseñar de nuestra JP Luisa fue clave para este cambio de mi manera de ver la programación.  
+    Al inicio, sí tenía un poco de miedo 😟, porque ¡no sabía nada de programación! Lo único que sabía era por las películas, y en ellas se muestra como algo super complejo. Sin embargo, también me causaba mucha intriga saber cómo funcionaba. No tenía idea de que literalmente todo en línea trabajaba de esa manera. En las primeras clases, fui empezando a entender cosas básicas, y la verdad fue divertido, así que iba jugando con los códigos a ver qué me salía.
+    Creo que lo mejor que me ha enseñado la programación es que un problema o situación no tiene una sola solución, sino que tiene miles de maneras creativas 💡. Y esto no solo se queda en la programación, sino que aplica para la vida misma. Otra cosa que me enseñó fue a tener paciencia y ser ordenada, porque un solo error en el código puede malograrlo todo 😅.
+    Lo que me gusta de programar es que puedo crear cualquier cosa que se me venga a la mente. Al inicio, vimos ejemplos más prácticos con números, pero cuando fuimos viendo juegos para entender los métodos, ¡las clases de PCC se volvieron mis favoritas! Así que, a partir de ese momento, cuando no entendía cómo funcionaba algo, trataba de usar una temática divertida y linda… ¡como en los juegos! Algunas cosas que programé que me gustaron mucho fueron: ¿QUÉ DICE TU ANIMAL FAVORITO DE TÍ?, ¡ADIVINA QUÉ FRUTAS TENGO EN MI CESTA! o ¡ADIVINA EN QUÉ PLANETA ESTOY PENSANDO!
+    En el futuro, creo que va a ser clave emplear la programación en mi carrera 🚀. Lo que me gustaría hacer con ella sería justamente automatizar procesos que me tomarían más tiempo, para dedicar el resto a la creación creativa de propuestas. Como mencionaba, me gusta mucho la idea de trabajar con una ONG en el futuro, y en especial en relación a la educación. Creo que usar la programación para crear programas amigables e interactivos que puedan colaborar en la educación de niños y niñas pequeñas sería increíble.
+    Al inicio del curso, no pensé que me terminaría gustando tanto, pero creo que el manejo de contenidos y la manera de enseñar de nuestra JP Luisa fue clave para este cambio en mi manera de ver la programación ❤️.
+   
     """
 
     # Mostramos el texto
@@ -151,7 +157,7 @@ En el futuro, creo que va a ser clave emplear la programación en mi carrera. Lo
     # En este caso, la URL es "https://www.youtube.com/watch?v=X_Z7d04x9-E".
     # Puedes cambiar la URL por la de tu video en YouTube o en otra plataforma de video.
 
-    # O creamos un botón para ir al enlace del video con button
+    # O creamos un botón para ir al enlace del video con button (drive)
     st.markdown(f"<div style='text-align: center;'><a href='https://youtu.be/rJnLPgrkigM' target='_blank'><button>Ver video</button></a></div>", unsafe_allow_html=True) 
 
     # <div style='text-align: center;'><a href='https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link' target='_blank'><button>Ver video</button></a></div>:
@@ -172,7 +178,7 @@ En el futuro, creo que va a ser clave emplear la programación en mi carrera. Lo
 else:
 
     # Agregamos un título para la página de gráficos
-    st.markdown("<h1 style='text-align: center;'>Algunos gráficos que cree 💪📈</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Algunos gráficos que diseñé 💪📈</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
     graficos = ['Gráfico doble de barras de los seguidores en TikTok de las entidades públicas de salud 2021-2025', 'Nube de palabras de la canción Viva la vida', 'Mapa de mis peliculas favoritas']
